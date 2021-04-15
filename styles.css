@@ -79,7 +79,6 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 * {
-    background-color: whitesmoke;
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -94,30 +93,45 @@ header {
 }
 section {
     border: solid 1px grey;
-    padding: 10px auto;
-    margin: 10px auto;
+    padding: 20px auto 20px 30px;
+    margin: 10px 20px;
 
 }
 h1 {
     font-weight: 700;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 26px;
+    margin: 10px;
 }
 h2 {
     font-weight: 500;
     font-size: 18px;
     font-family: Poppins, sans-serif;
+    margin: 10px;
 }
-p ul{
+p {
     font-weight: 400;
     font-size: 14px;
     font-family: Poppins;
+}
+li{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins;
+    margin: 10px 30px;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
 }
 /* Colors */
 .colors div {
     display: inline-block;
     padding: 100px 200px;
     margin: 10px 20px;
+    text-align: center;
 }
 .fonts div{
     display: inline-block;
@@ -151,3 +165,10 @@ p ul{
     font-family: Poppins;
 }
 /* Text Styles section */
+.textStyles p{
+    margin: 10px;
+}
+/* footer */
+footer {
+    text-align: center;
+}
