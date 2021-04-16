@@ -85,6 +85,7 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
 header {
     text-align: center;
@@ -129,13 +130,20 @@ em {
 /* Colors */
 .colors div {
     display: inline-block;
-    padding: 100px;
+    width: 20%;
+    height: 200px;
     margin: 10px;
-    text-align: center;
+}
+.colors p{
+    text-align:center;
+    position: relative;
+    top: 40%;
+    display: inline-flexbox;
+    text-overflow: ellipsis;
 }
 .fonts div{
     display: inline-block;
-    margin: 20px 10px;
+    margin:  10px;
 }
 #coolBlue {
     background-color: #2d5dcc;
